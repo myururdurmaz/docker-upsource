@@ -14,7 +14,7 @@ RUN apt-get update
 RUN apt-get install -y unzip zip
 
 
-ENV UPSOURCE_VERSION 2.0.3462
+ENV UPSOURCE_VERSION 2.5.4995
 
 
 VOLUME ["/opt/Upsource/conf","/opt/Upsource/data","/opt/Upsource/logs","/opt/Upsource/backups"]
