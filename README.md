@@ -48,7 +48,7 @@ $ sudo docker run \
     --rm \
     -p [host-port]:[container-port] \
     --volumes-from upsource-data \
-    --name upsource
+    --name upsource \
     oreomitch/docker-upsource:latest bin/upsource.sh run
 ```
 Alternatively, the container can be launched by:
@@ -59,6 +59,6 @@ $ sudo docker run \
     --rm \
     -p [host-port]:[container-port] \
     --volumes-from upsource-data \
-    --name upsource
+    --name upsource \
     oreomitch/docker-upsource:latest bin/upsource.sh run
 ```
